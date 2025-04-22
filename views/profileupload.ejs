@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen font-bold">
+
+  <div class="bg-zinc-900 w-full flex-grow bg-[url('https://cdn.dribbble.com/userupload/23140310/file/original-7667d40dd69febebcdc8964bc62c11fe.gif')] bg-cover bg-no-repeat bg-center p-10 text-white">
+    <h3 class="text-3xl mb-5">Upload Profile Picture</h3>
+
+    <form autocomplete="off" action="/upload" method="post" enctype="multipart/form-data" class="space-y-3 max-w-md">
+      <input type="file" name="image">
+      <input class="block px-5 py-2 bg-blue-500 rounded-md cursor-pointer" type="submit" value="Upload File" />
+    </form>
+  </div>
+
+  <footer class="bg-gray-900 text-white py-4 text-center">
+    <p class="text-sm">&copy; 2025 Made by <strong>The TMK Show</strong>. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
